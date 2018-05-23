@@ -10,46 +10,46 @@
         <item
             android:id="@+id/action_tool"
             android:orderInCategory="100"
-            android:title="基本用具介紹"
+            android:title="basic tools"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_search"
             android:orderInCategory="100"
-            android:title="依分類尋找"
+            android:title="search"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_cake"
             android:orderInCategory="100"
-            android:title="蛋糕"
+            android:title="cake"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_cake_roll"
             android:orderInCategory="100"
-            android:title="蛋糕捲"
+            android:title="cake roll"
             app:showAsAction="never" />
         <item
-            android:id="@+id/action_cookie"
+            android:id="@+id/action_cookies"
             android:orderInCategory="100"
-            android:title="餅乾"
+            android:title="cookies"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_bread"
             android:orderInCategory="100"
-            android:title="麵包"
+            android:title="bread"
             app:showAsAction="never" />
         <item
-            android:id="@+id/action_other"
+            android:id="@+id/action_others"
             android:orderInCategory="100"
-            android:title="其他"
+            android:title="others"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_recommendation"
             android:orderInCategory="100"
-            android:title="每日推薦"
+            android:title="recommendation"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_source"
             android:orderInCategory="100"
-            android:title="食譜出處" />
+            android:title="source" />
     </item>
 </menu>

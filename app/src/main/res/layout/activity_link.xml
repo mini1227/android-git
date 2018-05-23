@@ -51,6 +51,12 @@
                 android:layout_height="80dp"
                 android:orientation="horizontal">
 
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
                 <ImageView
                     android:id="@+id/imageView29"
                     android:layout_width="18dp"
@@ -75,7 +81,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="http://haruhii.pixnet.net/blog/post/31639479-%E6%8F%90%E6%8B%89%E7%B1%B3%E8%98%87%E9%A3%9F%E8%AD%9C"
-                        android:textSize="12sp" />
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -92,6 +107,14 @@
                 android:layout_height="80dp"
                 android:orientation="horizontal">
 
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
                 <ImageView
                     android:id="@+id/imageView30"
                     android:layout_width="18dp"
@@ -103,7 +126,9 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -116,9 +141,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/2062538-%E8%97%8D%E8%8E%93%E6%AA%B8%E6%AA%AC%E7%94%9F%E4%B9%B3%E9%85%AA%E8%9B%8B%E7%B3%95%E5%85%8D%E7%83%A4"
-                        android:textSize="12sp" />
+                        android:textSize="10sp" />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -133,6 +167,14 @@
                 android:layout_height="80dp"
                 android:orientation="horizontal">
 
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
                 <ImageView
                     android:id="@+id/imageView31"
                     android:layout_width="18dp"
@@ -144,7 +186,9 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -157,14 +201,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="https://icook.tw/recipes/146556"
-                        android:textSize="12sp" />
+                        android:textSize="10sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/link3"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="match_parent"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
@@ -172,6 +223,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView32"
@@ -199,6 +258,13 @@
                         android:text="https://icook.tw/recipes/138617"
                         android:textSize="12sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -213,6 +279,12 @@
                 android:layout_height="80dp"
                 android:orientation="horizontal">
 
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
                 <ImageView
                     android:id="@+id/imageView33"
                     android:layout_width="18dp"
@@ -224,7 +296,9 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -237,8 +311,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="https://www.fooding.com.tw/recipe-shares.php?cookid=107781"
-                        android:textSize="12sp" />
+                        android:textSize="10sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -252,6 +333,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView34"
@@ -277,8 +364,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="https://www.fooding.com.tw/recipe-shares.php?cookid=107727"
-                        android:textSize="12sp" />
+                        android:textSize="10sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -292,6 +386,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView35"
@@ -316,8 +416,16 @@
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="https://icook.tw/recipes/249554"
+                        android:textSize="10sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -331,6 +439,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView36"
@@ -355,8 +469,15 @@
                         android:id="@+id/textView55"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text=" https://icook.tw/recipes/249471" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -370,6 +491,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView37"
@@ -394,8 +521,16 @@
                         android:id="@+id/textView56"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text=" https://icook.tw/recipes/249031"
+                        android:textSize="10sp" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -409,6 +544,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView38"
@@ -433,8 +574,16 @@
                         android:id="@+id/textView57"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="https://icook.tw/recipes/248518"
+                        android:textSize="10sp" />
+
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
             </LinearLayout>
 
         </LinearLayout>

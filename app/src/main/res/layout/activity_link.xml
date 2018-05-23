@@ -59,6 +59,12 @@
                     android:src="@drawable/cake01" />
 
                 <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
                     android:layout_width="176dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -92,6 +98,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake02" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -129,6 +141,12 @@
                     android:src="@drawable/cake03" />
 
                 <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
                     android:layout_width="176dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -161,6 +179,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake04" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -197,6 +221,12 @@
                     android:src="@drawable/cake05" />
 
                 <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
                     android:layout_width="176dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -229,6 +259,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake06" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -265,6 +301,12 @@
                     android:src="@drawable/bread01" />
 
                 <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
                     android:layout_width="176dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -296,6 +338,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread02" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"
@@ -331,6 +379,12 @@
                     android:src="@drawable/bread03" />
 
                 <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
                     android:layout_width="176dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -362,6 +416,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread04" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
                     android:layout_width="176dp"

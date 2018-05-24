@@ -22,7 +22,10 @@
         <activity
             android:name=".TOOL"
             android:label="@string/title_activity_tool"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LinkActivity"
+            android:label="@string/title_activity_link"></activity>
     </application>
 
 </manifest>

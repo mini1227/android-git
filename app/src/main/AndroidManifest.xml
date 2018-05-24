@@ -25,7 +25,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LinkActivity"
-            android:label="@string/title_activity_link"></activity>
+            android:label="@string/title_activity_link" />
+        <activity android:name=".Cake1"></activity>
     </application>
 
 </manifest>

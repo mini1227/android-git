@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent_tool);
                 return true;
             case R.id.action_source:
+                Intent intent_source = new Intent();
+                intent_source.setClass(MainActivity.this,LinkActivity.class);
+                startActivity(intent_source);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

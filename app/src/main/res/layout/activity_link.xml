@@ -59,7 +59,7 @@
 
                 <ImageView
                     android:id="@+id/imageView29"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake01" />
@@ -117,7 +117,7 @@
 
                 <ImageView
                     android:id="@+id/imageView30"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake02" />
@@ -177,7 +177,7 @@
 
                 <ImageView
                     android:id="@+id/imageView31"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake03" />
@@ -234,7 +234,7 @@
 
                 <ImageView
                     android:id="@+id/imageView32"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake04" />
@@ -287,7 +287,7 @@
 
                 <ImageView
                     android:id="@+id/imageView33"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake05" />
@@ -342,7 +342,7 @@
 
                 <ImageView
                     android:id="@+id/imageView34"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/cake06" />
@@ -395,7 +395,7 @@
 
                 <ImageView
                     android:id="@+id/imageView35"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread01" />
@@ -448,7 +448,7 @@
 
                 <ImageView
                     android:id="@+id/imageView36"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread02" />
@@ -499,8 +499,8 @@
                     android:orientation="vertical"></LinearLayout>
 
                 <ImageView
-                    android:id="@+id/imageView37"
-                    android:layout_width="18dp"
+                    android:id="@+id/50"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread03" />
@@ -553,7 +553,7 @@
 
                 <ImageView
                     android:id="@+id/imageView38"
-                    android:layout_width="18dp"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/bread04" />

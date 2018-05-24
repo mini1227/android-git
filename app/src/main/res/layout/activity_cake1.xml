@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.Cake1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    app:srcCompat="@drawable/logo" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    app:srcCompat="@drawable/bar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a0"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="提拉米蘇" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/cake01" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="難度 : ★★★☆☆" />
+
+            <LinearLayout
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recipe"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="材料：" />
+
+                    <TextView
+                        android:id="@+id/textView65"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               馬斯卡彭起司500g"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               細砂糖 100g"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               蛋黃五個"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               蛋白三個"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               手指餅乾"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               濃縮咖啡適量"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="               可可粉少許"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/step"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="做法 : " />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView44"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c101" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="1.馬斯卡彭起司先放在室溫下回軟備用"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView45"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c102" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView70"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="2.蛋黃五個跟細砂糖50g用打蛋器攪拌均勻，大概打到看不見砂糖顆粒"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView403"
+                            android:layout_width="116dp"
+                            android:layout_height="wrap_content"
+
+                            app:srcCompat="@drawable/c103" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView71"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="3.將馬斯卡彭起司加入蛋黃糊中打勻，攪拌後就會變成滑順的起司糊"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView400"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c104" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView702"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="4.將細砂糖50g分次加入蛋白中打發，蛋白要打到乾性發泡 "
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView49"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c105" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView72"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="5.將打發的蛋白分次加入步驟3的起司糊中拌勻，做出提拉米蘇慕斯"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4119"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c106" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView1722"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="6.迅速將手指餅乾兩面都沾過濃縮咖啡"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4319"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c107" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView1732"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="7.容器最底部鋪上一層手指餅乾"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4196"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c108" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView1772"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="8.將剛剛做好的提拉米蘇慕斯倒入，蓋住手指餅乾，重複幾次"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4419"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c109" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView3172"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="9.送入冰箱冰約四個小時"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView419"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/c110" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView172"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="10.最後撒上可可粉裝飾，完成!"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

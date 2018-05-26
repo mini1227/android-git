@@ -28,7 +28,8 @@
             android:label="@string/title_activity_link" />
         <activity android:name=".Cake1" />
         <activity android:name=".Roll1" />
-        <activity android:name=".Roll2"></activity>
+        <activity android:name=".Roll2" />
+        <activity android:name=".Roll3"></activity>
     </application>
 
 </manifest>

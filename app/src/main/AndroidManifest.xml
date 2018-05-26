@@ -29,7 +29,8 @@
         <activity android:name=".Cake1" />
         <activity android:name=".Roll1" />
         <activity android:name=".Roll2" />
-        <activity android:name=".Roll3"></activity>
+        <activity android:name=".Roll3" />
+        <activity android:name=".Roll4"></activity>
     </application>
 
 </manifest>

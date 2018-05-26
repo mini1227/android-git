@@ -4,18 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.myapplication.Roll1">
+    tools:context="com.example.user.myapplication.Roll2">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -23,30 +21,32 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView40"
+                    android:id="@+id/imageView50"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     app:srcCompat="@drawable/logo" />
 
                 <ImageView
-                    android:id="@+id/imageView41"
+                    android:id="@+id/imageView51"
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
                     app:srcCompat="@drawable/bar" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:orientation="horizontal">
+
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/textView58"
+                android:id="@+id/textView83"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="草莓可爾必思生乳捲" />
+                android:text="小熊造型蛋糕捲" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,16 +56,14 @@
                 <LinearLayout
                     android:layout_width="20dp"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
+                    android:orientation="vertical"></LinearLayout>
 
                 <ImageView
-                    android:id="@+id/imageView42"
+                    android:id="@+id/imageView69"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/roll01" />
+                    app:srcCompat="@drawable/roll02" />
 
                 <LinearLayout
                     android:layout_width="20dp"
@@ -79,11 +77,11 @@
                 android:orientation="vertical"></LinearLayout>
 
             <TextView
-                android:id="@+id/textView59"
+                android:id="@+id/textView89"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="難度 : ★★★☆☆" />
+                android:text="難度 : ★★★★☆" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -106,89 +104,62 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView68"
+                        android:id="@+id/textView90"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="材料:"
-                        android:textSize="10sp" />
+                        android:text="材料:" />
 
                     <TextView
-                        android:id="@+id/textView69"
+                        android:id="@+id/textView91"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               28X28個cm方型烤模1個"
-                        android:textSize="8sp" />
+                        android:text="               蛋黃4顆"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView73"
+                        android:id="@+id/textView92"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               細砂糖10g+40"
-                        android:textSize="8sp" />
+                        android:text="               葡萄籽油45克"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView74"
+                        android:id="@+id/textView111"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               植物油40g"
-                        android:textSize="8sp" />
+                        android:text="               牛奶70cc"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView75"
+                        android:id="@+id/textView112"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               牛奶50g"
-                        android:textSize="8sp" />
+                        android:text="               低筋麵粉80克"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView76"
+                        android:id="@+id/textView113"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               低筋麵粉60g"
-                        android:textSize="8sp" />
+                        android:text="               蛋白4顆"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView77"
+                        android:id="@+id/textView114"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               蛋黃4個份"
-                        android:textSize="8sp" />
+                        android:text="               細砂糖55克"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView78"
+                        android:id="@+id/textView115"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               蛋白4個份"
-                        android:textSize="8sp" />
-
-                    <TextView
-                        android:id="@+id/textView79"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="               檸檬汁5g"
-                        android:textSize="8sp" />
-
-                    <TextView
-                        android:id="@+id/textView80"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="               動物性鮮奶油150g"
-                        android:textSize="8sp" />
-
-                    <TextView
-                        android:id="@+id/textView81"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="               可爾必思發酵乳45g"
-                        android:textSize="8sp" />
-
-                    <TextView
-                        android:id="@+id/textView82"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="               新鮮草莓數顆"
-                        android:textSize="8sp" />
+                        android:layout_weight="1"
+                        android:text="               檸檬汁或白醋少許"
+                        android:textSize="12sp" />
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -213,7 +184,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView84"
+                        android:id="@+id/textView116"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="做法:" />
@@ -224,11 +195,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView43"
+                            android:id="@+id/imageView71"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r101" />
+                            app:srcCompat="@drawable/r201" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -237,12 +208,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView85"
+                            android:id="@+id/textView117"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="1.	分蛋後蛋白入冰箱冷藏，注意蛋白不能沾染到任何油脂。蛋黃糊的油、糖、  牛奶直接秤在一盆，其他材料秤好備用。烤箱以180度預熱。   "
+                            android:text="1.	事先準備一張烘焙白報紙,裁成34公分(與烤盤長度一樣),因為要長向捲起!每隔四公分,畫小熊的臉,留四公分是因為,蛋糕捲出爐會切成每塊四公分"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -251,14 +222,18 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
+
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/a1"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="horizontal">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step2"
@@ -282,11 +257,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView46"
+                            android:id="@+id/imageView72"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r102" />
+                            app:srcCompat="@drawable/r202" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -295,12 +270,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView86"
+                            android:id="@+id/textView118"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="2.	將油、糖、牛奶充分攪拌均勻，呈現均勻乳化的狀態。"
+                            android:text="2.	畫好後鋪上烘焙烤紙,依舊可以看得到底下的小熊*小熊放烤盤中間，放（平行）長向，等會兒要長向捲起，要注意的是，長或短向捲，小熊擺放位置不同！"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -309,7 +284,6 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
@@ -343,36 +317,32 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView47"
+                            android:id="@+id/imageView73"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r103" />
+                            app:srcCompat="@drawable/r203" />
 
                         <LinearLayout
                             android:layout_width="1dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                        </LinearLayout>
+                            android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView87"
+                            android:id="@+id/textView119"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="3.	篩入麵粉後，以畫Z字型的方式，將麵粉拌勻至無粉粒即可。"
+                            android:text="3.	烤箱預熱160度,蛋黃先與油拌勻乳化"
                             android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                        </LinearLayout>
+                            android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -381,9 +351,7 @@
                 android:id="@+id/a3"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="vertical">
-
-            </LinearLayout>
+                android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step4"
@@ -407,27 +375,25 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView48"
+                            android:id="@+id/imageView74"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r104" />
+                            app:srcCompat="@drawable/r204" />
 
                         <LinearLayout
                             android:layout_width="1dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                        </LinearLayout>
+                            android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView88"
+                            android:id="@+id/textView120"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="4.	一次加入兩顆蛋黃充分攪拌均勻，再加入剩下兩顆。"
+                            android:text="4.	加入鮮奶拌勻"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -437,7 +403,6 @@
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
 
             <LinearLayout
@@ -455,7 +420,9 @@
                 <LinearLayout
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
+                    android:orientation="horizontal">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -468,44 +435,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView52"
+                            android:id="@+id/imageView75"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r105" />
-
-                        <LinearLayout
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal">
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="170dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView93"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="5.	蛋黃糊完成的狀態，應是濃稠具流動性的。"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:id="@+id/textView94"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="**可以過篩一次，這樣蛋糕烤出來會更細緻，省略也可以，影響不大"
-                                android:textSize="12sp" />
-                        </LinearLayout>
+                            app:srcCompat="@drawable/r205" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -513,6 +447,20 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
 
+                        <TextView
+                            android:id="@+id/textView121"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="5.	加入過篩的低筋麵粉,拌勻"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -545,11 +493,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView53"
+                            android:id="@+id/imageView76"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r106" />
+                            app:srcCompat="@drawable/r206" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -558,12 +506,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView95"
+                            android:id="@+id/textView122"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="6.	蛋白從冰箱取出後，用電動打蛋器高速在盆中各處打圈，打出粗泡後，加入檸檬汁和1/3的糖。"
+                            android:text="6.	蛋黃糊完成!拌好的蛋黃糊狀態,有流動性滴下有摺痕,濃稠的不是水水的"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -572,6 +520,7 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -590,7 +539,9 @@
                 <LinearLayout
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
+                    android:orientation="horizontal">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -603,11 +554,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView54"
+                            android:id="@+id/imageView77"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r107" />
+                            app:srcCompat="@drawable/r207" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -616,12 +567,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView96"
+                            android:id="@+id/textView123"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="7.	打至稍微有點膨度，蛋白會有少許卡在攪拌棒上時，再加入1/3的糖。"
+                            android:text="7.	蛋白霜製作:蛋白加檸檬汁或白醋.砂糖分三次,高&gt;中&gt;低速,打至可提起的彎鉤狀(濕性發泡)且蛋白霜非常光澤有亮度**蛋糕捲攪打至濕性發泡組織較有彈性較有利捲起"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -637,7 +588,9 @@
                 android:id="@+id/a7"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step8"
@@ -648,7 +601,9 @@
                 <LinearLayout
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
+                    android:orientation="horizontal">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -661,11 +616,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView55"
+                            android:id="@+id/imageView78"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r108" />
+                            app:srcCompat="@drawable/r208" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -674,12 +629,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView97"
+                            android:id="@+id/textView124"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="8.	當蛋白出現明顯的膨度後，加入剩下的糖，注意這時候攪拌的速度要改成低速，慢慢打發至濕性發泡再多一點的狀態。"
+                            android:text="8.	先拿1/3打發的蛋白拌入蛋黃糊中,仔細拌勻"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -689,6 +644,7 @@
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -719,11 +675,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView56"
+                            android:id="@+id/imageView79"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r109" />
+                            app:srcCompat="@drawable/r209" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -732,19 +688,21 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView98"
+                            android:id="@+id/textView125"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="9.	當蛋白霜已經呈現不會流動的狀態時，要不時的停下來檢查，檢查的方法是用手動的方式，將攪拌棒在盆中畫幾圈，然後慢慢的拉起來看尖端，出現如照片中還沒到硬性發泡，前端還有點微軟即可。"
+                            android:text="9.	之後再將拌勻的麵糊倒回蛋白霜中"
                             android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:orientation="horizontal"></LinearLayout>
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -753,9 +711,7 @@
                 android:id="@+id/a9"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="vertical">
-
-            </LinearLayout>
+                android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step10"
@@ -766,7 +722,9 @@
                 <LinearLayout
                     android:layout_width="50dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
+                    android:orientation="horizontal">
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -779,11 +737,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView57"
+                            android:id="@+id/imageView70"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r110" />
+                            app:srcCompat="@drawable/r210" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -792,17 +750,18 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView99"
+                            android:id="@+id/textView126"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="10.	取1/3的蛋白霜入蛋黃糊盆，用攪拌器拌勻，要注意盆底容易沈澱。"
+                            android:text="10.	拌勻,拌好麵糊呈現狀態,是濃稠有摺痕的!"
                             android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
                             android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
@@ -812,7 +771,7 @@
             <LinearLayout
                 android:id="@+id/a10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="10dp"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
@@ -837,11 +796,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView58"
+                            android:id="@+id/imageView80"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r111" />
+                            app:srcCompat="@drawable/r211" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -850,14 +809,13 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView100"
+                            android:id="@+id/textView127"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="11.	將拌勻的蛋黃糊倒入蛋白霜盆，改用刮刀以切拌的手法拌勻。"
-                            android:textSize="12sp"
-                            tools:textSize="12sp" />
+                            android:text="11.	取兩份麵糊,分別是1/2大匙,分別加入1/8小匙可可粉以及竹炭粉"
+                            android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -896,11 +854,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView59"
+                            android:id="@+id/imageView81"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r112" />
+                            app:srcCompat="@drawable/r212" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -909,12 +867,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView101"
+                            android:id="@+id/textView128"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="12.	拌好的蛋糕糊是有膨度，流動性不會太高的，從30公分的高處倒入鋪好高溫油布或烘培紙的烤模中，用刮板輔助將四周填滿及表面整平，在桌上摔兩次震出氣泡。"
+                            android:text="12.	調勻後裝入擠花袋中,要畫小熊的臉使用"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -954,11 +912,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView60"
+                            android:id="@+id/imageView82"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r113" />
+                            app:srcCompat="@drawable/r213" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -967,12 +925,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView102"
+                            android:id="@+id/textView129"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="13.	放入預熱好的烤箱中層，以上下火180度烤12分，時間到掉頭再烤6-8分鐘。"
+                            android:text="13.	取備好的烤盤,用黑色畫出小熊的眼鼻嘴,入預熱好的烤箱,烤一分鐘,讓眼鼻嘴定型"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -987,7 +945,7 @@
             <LinearLayout
                 android:id="@+id/a13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="10dp"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
@@ -1012,11 +970,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView61"
+                            android:id="@+id/imageView83"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r114" />
+                            app:srcCompat="@drawable/r214" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1025,12 +983,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView103"
+                            android:id="@+id/textView130"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="14.	蛋糕烤好後，在桌上重摔一次震出熱氣，用脫模刀將四周劃開，撕一張烘培紙蓋著，然後放上散熱架，反轉將蛋糕倒扣出來，並將底部的油布撕開，然後在用一張烘培紙同樣方式翻回來放涼，蛋糕片上虛蓋著烘培紙防止乾燥。"
+                            android:text="14.	定型後,用咖啡色化橫的橢圓(蛋形)將鼻嘴蓋住,入烤箱烤一分鐘定型"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1070,11 +1028,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView62"
+                            android:id="@+id/imageView84"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r115" />
+                            app:srcCompat="@drawable/r215" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1083,13 +1041,59 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView104"
+                            android:id="@+id/textView131"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="15.	鮮奶油直接和可爾必思一起打至全發狀態。"
+                            android:text="15.	定型後,將蛋糕糊倒入烤盤中,可以將麵糊再拌幾下!以防沉底!"
                             android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a15"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step16"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView85"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/r216" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1098,19 +1102,52 @@
                             android:orientation="horizontal">
 
                         </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView132"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:text="16.	將麵糊鋪平,入爐,160度20-23分鐘"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/textView133"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:text="**此處的烤箱是無上下火分開調節的德國b牌烤箱,溫度時間為參考值,若是有上下火分開調節的烤箱請自行斟酌測試烤溫!"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
                     </LinearLayout>
                 </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a16"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical">
 
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/a15"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/step16"
+                android:id="@+id/step17"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -1133,11 +1170,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView63"
+                            android:id="@+id/imageView86"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r116" />
+                            app:srcCompat="@drawable/r217" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1146,71 +1183,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView105"
+                            android:id="@+id/textView134"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="16.	取一大張白報紙或烘培紙，將已經完全放涼的蛋糕片烤面朝下放上，蛋糕的兩端斜切掉一部分，塗上鮮奶油霜，靠近自己這端厚一些，尾端薄薄一層即可，放上草莓(洗淨後要充分擦乾)後再繼續用鮮奶油霜蓋住，注意縫隙處要盡量填滿。"
-                            android:textSize="12sp" />
-
-                        <LinearLayout
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"></LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/a16"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/step17"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="50dp"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView64"
-                            android:layout_width="100dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/r117" />
-
-                        <LinearLayout
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"></LinearLayout>
-
-                        <TextView
-                            android:id="@+id/textView106"
-                            android:layout_width="170dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:text="17.	桿麵棍置於紙下捲起來。"
+                            android:text="17.	即可出爐,因小熊蛋糕捲是毛巾面朝外,希望成品是乾淨有潔白感的!所以不要烘烤過久!烤到手拍蛋糕有砰砰低沉聲,就可以出爐,烤面不用堅持要烤到深咖啡色!因為等會兒那面會包在裡頭!!"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1226,6 +1204,7 @@
                 android:id="@+id/a17"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
+                android:layout_weight="1"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
@@ -1250,11 +1229,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView65"
+                            android:id="@+id/imageView87"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r118" />
+                            app:srcCompat="@drawable/r218" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1263,12 +1242,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView107"
+                            android:id="@+id/textView135"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="18.	一邊捲起的同時，蛋糕片就會被拉抬起來。"
+                            android:text="18.	出爐後,別遲疑!馬上立即毛巾面朝上,撕去烤紙,待涼,待涼時可以放一張烤紙在上頭防乾燥"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1278,6 +1257,7 @@
                             android:orientation="horizontal"></LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -1308,11 +1288,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView66"
+                            android:id="@+id/imageView88"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r119" />
+                            app:srcCompat="@drawable/r219" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1321,12 +1301,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView108"
+                            android:id="@+id/textView136"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="19.	先將蛋糕折彎成一個倒C字型。"
+                            android:text="19.	蛋糕捲待涼時,攪打內餡,今天用量,動物性鮮奶油160cc,馬斯卡彭起司30克,細砂19克,全部攪打至直立,若無馬斯卡彭起司,全部用鮮奶油取代也行!其餘都不變"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1342,7 +1322,9 @@
                 android:id="@+id/a19"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step20"
@@ -1366,11 +1348,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView67"
+                            android:id="@+id/imageView89"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/r120" />
+                            app:srcCompat="@drawable/r220" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1379,12 +1361,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView109"
+                            android:id="@+id/textView137"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="20.	一手扶著蛋糕尾端，另一手抓著桿麵棍將蛋糕往前推，就可以順利將蛋糕捲起，用桿麵棍往後收緊一些讓蛋糕捲能更加定型緊實，然後用紙整個包卷起來放入冰箱冷藏一個小時，或冷凍15分鐘，即可取出切片。"
+                            android:text="20.	蛋糕捲涼後,烤面朝上,可以用刀子在靠自己這邊輕畫幾條線,以利捲起,再鋪上鮮奶油"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1424,11 +1406,11 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView68"
+                            android:id="@+id/imageView90"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/roll01" />
+                            app:srcCompat="@drawable/r221" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -1437,12 +1419,12 @@
                             android:orientation="horizontal"></LinearLayout>
 
                         <TextView
-                            android:id="@+id/textView110"
+                            android:id="@+id/textView138"
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="21.	切片要漂亮的話，要用麵包刀或鋸齒刀來切，刀先沖溫熱水，擦乾後用鋸+下切的方式來切，每切完一刀都要沖溫熱水，然後重複同樣步驟，這樣就可以切出切口乾淨整齊的蛋糕片囉！"
+                            android:text="21.	長向捲起,放入冰箱冰一小時"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -1460,8 +1442,128 @@
                 android:layout_height="10dp"
                 android:orientation="vertical"></LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/step22"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView91"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/r222" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView140"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="22.	即可取出分切"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a22"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step23"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView92"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/roll02" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView141"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="23.	可以將小熊上端放兩個紐扣圓型巧克力作為耳朵"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/a23"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="vertical"></LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
-
 </android.support.constraint.ConstraintLayout>

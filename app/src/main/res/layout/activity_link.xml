@@ -499,7 +499,7 @@
                     android:orientation="vertical"></LinearLayout>
 
                 <ImageView
-                    android:id="@+id/50"
+                    android:id="@+id/Image50"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

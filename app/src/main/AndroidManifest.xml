@@ -33,7 +33,12 @@
         <activity android:name=".Roll4" />
         <activity android:name=".Roll5" />
         <activity android:name=".Roll6" />
-        <activity android:name=".Bread1"></activity>
+        <activity android:name=".Bread1" />
+        <activity android:name=".Bread2" />
+        <activity android:name=".Bread3" />
+        <activity android:name=".Bread4" />
+        <activity android:name=".Bread5" />
+        <activity android:name=".Bread6"></activity>
     </application>
 
 </manifest>

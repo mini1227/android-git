@@ -32,7 +32,8 @@
         <activity android:name=".Roll3" />
         <activity android:name=".Roll4" />
         <activity android:name=".Roll5" />
-        <activity android:name=".Roll6"></activity>
+        <activity android:name=".Roll6" />
+        <activity android:name=".Bread1"></activity>
     </application>
 
 </manifest>

@@ -10,46 +10,16 @@
         <item
             android:id="@+id/action_tool"
             android:orderInCategory="100"
-            android:title="basic tools"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_search"
-            android:orderInCategory="100"
-            android:title="search"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_cake"
-            android:orderInCategory="100"
-            android:title="cake"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_cake_roll"
-            android:orderInCategory="100"
-            android:title="cake roll"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_cookies"
-            android:orderInCategory="100"
-            android:title="cookies"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_bread"
-            android:orderInCategory="100"
-            android:title="bread"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_others"
-            android:orderInCategory="100"
-            android:title="others"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_recommendation"
-            android:orderInCategory="100"
-            android:title="recommendation"
+            android:title="基本用具介紹"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_source"
             android:orderInCategory="100"
-            android:title="source" />
+            android:title="食譜出處"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings" />
     </item>
 </menu>

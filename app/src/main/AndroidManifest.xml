@@ -22,7 +22,23 @@
         <activity
             android:name=".TOOL"
             android:label="@string/title_activity_tool"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LinkActivity"
+            android:label="@string/title_activity_link" />
+        <activity android:name=".Cake1" />
+        <activity android:name=".Roll1" />
+        <activity android:name=".Roll2" />
+        <activity android:name=".Roll3" />
+        <activity android:name=".Roll4" />
+        <activity android:name=".Roll5" />
+        <activity android:name=".Roll6" />
+        <activity android:name=".Bread1" />
+        <activity android:name=".Bread2" />
+        <activity android:name=".Bread3" />
+        <activity android:name=".Bread4" />
+        <activity android:name=".Bread5" />
+        <activity android:name=".Bread6"></activity>
     </application>
 
 </manifest>

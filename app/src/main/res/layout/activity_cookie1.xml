@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.myapplication.other4">
+    tools:context="com.example.user.myapplication.cookie1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="抹茶奶油泡芙" />
+                android:text="巧克力小西餅" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/e4finish" />
+                    app:srcCompat="@drawable/f1finish" />
 
                 <LinearLayout
                     android:layout_width="20dp"
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="難度 : ★★★☆☆" />
+                android:text="難度 : ★★☆☆☆" />
 
             <LinearLayout
                 android:id="@+id/a2"
@@ -99,7 +99,7 @@
             <LinearLayout
                 android:id="@+id/recipe"
                 android:layout_width="match_parent"
-                android:layout_height="226dp"
+                android:layout_height="150dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -108,8 +108,8 @@
                     android:orientation="horizontal"></LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <TextView
@@ -119,96 +119,62 @@
                         android:text="材料：" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView65"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="               泡芙皮:"
+                        android:text="               無鹽奶油 120g"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView64"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     牛奶 100ml"
+                        android:text="               砂糖 45g"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView63"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     無鹽奶油（切小塊） 45g"
+                        android:text="               全蛋 1個"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView62"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     鹽 1g"
+                        android:text="               低筋麵粉 200g"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView61"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     低筋麵粉 60g"
+                        android:text="               泡打粉 4g"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView60"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     全蛋（打散） 2個"
+                        android:text="               可可粉 20g"
                         android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textView66"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="              抹茶奶油餡:"
+                        android:text="               耐烤巧克力豆 100g"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                     冰的動物性鮮奶油 150ml"
+                        android:text="               *一定要用此巧克力，成品才會漂亮"
                         android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/textView27"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="                     砂糖 15g"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/textView2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="                     抹茶粉 10g(因每家抹茶粉的純度不同，可依個人口味調整添加)"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="               裝飾:"
-                        android:textSize="12sp" />
-
-                    <TextView
-                        android:id="@+id/textView"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="                     糖粉 少許"
-                        android:textSize="12sp" />
-
                 </LinearLayout>
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/a3"
@@ -217,6 +183,11 @@
                 android:orientation="vertical">
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/step1"
@@ -252,7 +223,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e401" />
+                            app:srcCompat="@drawable/f101" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -266,7 +237,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="1.鍋中放入牛奶、切小塊的無鹽奶油和鹽，以小火煮滾後離火"
+                            android:text="1.奶油放置室溫使其軟化之後，用直型打蛋器打至鬆軟，稍微偏乳白色"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -314,7 +285,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e402" />
+                            app:srcCompat="@drawable/f102" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -328,7 +299,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="2.篩入低筋麵粉，用木勺快速拌勻，攪拌到看不到白色麵粉時，再放回爐上加熱"
+                            android:text="2.加入砂糖一起拌勻"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -376,7 +347,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e403" />
+                            app:srcCompat="@drawable/f103" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -390,7 +361,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="3.邊加熱邊攪拌成麵團，且鍋底有白色薄膜後離火"
+                            android:text="3.先將蛋打散，分兩次加入奶油糊中拌勻"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -438,7 +409,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e404" />
+                            app:srcCompat="@drawable/f104" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -446,39 +417,14 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
 
-                        <LinearLayout
+                        <TextView
+                            android:id="@+id/textView702"
                             android:layout_width="170dp"
-                            android:layout_height="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView701"
-                                android:layout_width="170dp"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="4.將步驟3的麵團移到鋼盆內，再分次加入蛋液，用木勺打勻"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:id="@+id/textView700"
-                                android:layout_width="170dp"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="*蛋液不要一次全下，最好能多次加入。每次加入拌勻後，先確認麵糊的狀態，才加下一次的蛋液，以防麵糊過稀則無法彌補"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:id="@+id/textView702"
-                                android:layout_width="170dp"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="*過程較費力，可利用電動攪拌器來攪打"
-                                android:textSize="12sp" />
-                        </LinearLayout>
+                            android:text="4.將所有粉類先過篩再加入奶油糊中"
+                            android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -525,7 +471,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e405" />
+                            app:srcCompat="@drawable/f105" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -539,7 +485,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="5.打到木勺提起麵糊會緩緩滑落的狀態，再將麵糊裝入有平口擠花嘴的擠花袋內"
+                            android:text="5.用橡皮刮刀以壓拌法的方式拌勻成麵團"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -587,7 +533,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e406" />
+                            app:srcCompat="@drawable/f106" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -601,7 +547,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="6.在舖有烘焙紙的烤盤上（或在已抹油的烤盤上），擠出每個大小一致的圓形麵糊。將手指沾些水，把表面突起的部份抹平"
+                            android:text="6.加入一半的耐烘焙巧克力豆與麵團拌勻"
                             android:textSize="12sp" />
 
                         <LinearLayout
@@ -649,7 +595,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e407" />
+                            app:srcCompat="@drawable/f107" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -657,30 +603,14 @@
                             android:layout_weight="1"
                             android:orientation="horizontal"></LinearLayout>
 
-                        <LinearLayout
+                        <TextView
+                            android:id="@+id/textView1732"
                             android:layout_width="170dp"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView1732"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="7.放入已預熱190-200℃的烤箱中，烤25-30分鐘。出爐後，放在網架上冷卻"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:id="@+id/textView1731"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_weight="1"
-                                android:text="*烘烤泡芙的過程中，不可以打開烤箱，以免冷空氣進入，造成泡芙塌陷!!"
-                                android:textSize="12sp" />
-                        </LinearLayout>
+                            android:text="7.取一小團麵糰搓圓，沾取適量的耐烘焙巧克力豆，放至舖有烤焙紙的烤盤上，壓扁，即完成整型"
+                            android:textSize="12sp" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -727,7 +657,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/e408" />
+                            app:srcCompat="@drawable/f108" />
 
                         <LinearLayout
                             android:layout_width="1dp"
@@ -741,69 +671,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:text="8.冰的動物性鮮奶油、糖粉和抹茶粉放入攪拌盆內，用手持打蛋器或電動攪拌器打到9分發，再裝入擠花袋內，製作出抹茶奶油餡"
-                            android:textSize="12sp" />
-
-                        <LinearLayout
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"></LinearLayout>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/a11"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/step9"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="50dp"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"></LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView24"
-                            android:layout_width="100dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/e409" />
-
-                        <LinearLayout
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:orientation="horizontal"></LinearLayout>
-
-                        <TextView
-                            android:id="@+id/textView1773"
-                            android:layout_width="170dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:text="9.用刀子把泡芙橫向切開，在下半部的泡芙擠入抹茶奶油餡，然後把上半部蓋上，最後撒上糖粉裝飾，即完成!"
+                            android:text="8.放入已預熱的烤箱中，以170˚C烘烤10~15分鐘即可出爐，放涼即完成!"
                             android:textSize="12sp" />
 
                         <LinearLayout

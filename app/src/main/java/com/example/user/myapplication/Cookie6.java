@@ -3,7 +3,7 @@ package com.example.user.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class cookie6 extends AppCompatActivity {
+public class Cookie6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

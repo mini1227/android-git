@@ -3,11 +3,11 @@ package com.example.user.myapplication;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class other2 extends AppCompatActivity {
+public class Cookie3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other2);
+        setContentView(R.layout.activity_cookie3);
     }
 }

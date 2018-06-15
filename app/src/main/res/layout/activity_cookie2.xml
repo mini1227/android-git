@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.myapplication.cookie2">
+    tools:context="com.example.user.myapplication.Cookie2">
 
     <ScrollView
         android:layout_width="match_parent"

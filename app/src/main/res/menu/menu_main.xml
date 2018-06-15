@@ -13,6 +13,11 @@
             android:title="基本用具介紹"
             app:showAsAction="never" />
         <item
+            android:id="@+id/action_random"
+            android:orderInCategory="100"
+            android:title="每日推薦"
+            app:showAsAction="never" />
+        <item
             android:id="@+id/action_source"
             android:orderInCategory="100"
             android:title="食譜出處"

@@ -145,7 +145,7 @@ public class LinkActivity extends Activity {
             public void onClick(View v) {
 
                 intent.setAction(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(" https://icook.tw/recipes/249031"));
+                intent.setData(Uri.parse("https://icook.tw/recipes/249031"));
                 startActivity(intent);
 
             }
@@ -156,7 +156,7 @@ public class LinkActivity extends Activity {
             public void onClick(View v) {
 
                 intent.setAction(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(" https://icook.tw/recipes/248518"));
+                intent.setData(Uri.parse("https://icook.tw/recipes/248518"));
                 startActivity(intent);
 
             }

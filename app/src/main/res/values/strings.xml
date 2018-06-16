@@ -4,4 +4,5 @@
     <string name="title_activity_tool">TOOL</string>
     <string name="title_activity_recipe">RecipeActivity</string>
     <string name="title_activity_link">LinkActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

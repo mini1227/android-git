@@ -2,29 +2,76 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.user.myapplication.MainActivity">
-    <item
-        android:id="@+id/action"
-        android:title=" "
-        app:actionLayout="@layout/switch_item"
-        app:showAsAction="always">
-        <item
-            android:id="@+id/action_tool"
-            android:orderInCategory="100"
-            android:title="基本用具介紹"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_random"
-            android:orderInCategory="100"
-            android:title="每日推薦"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_source"
-            android:orderInCategory="100"
-            android:title="食譜出處"
-            app:showAsAction="never" />
-        <item
-            android:id="@+id/action_settings"
-            android:orderInCategory="100"
-            android:title="@string/action_settings" />
-    </item>
-</menu>
+
+          <item
+              android:title="MENU "
+              app:showAsAction="always">
+
+              <menu>
+                  <item
+                      android:id="@+id/action_cake"
+                      android:orderInCategory="100"
+                      android:title="蛋糕"
+                      android:icon ="@drawable/ic_cake"
+                      app:showAsAction="never" />
+
+                  <item
+                      android:id="@+id/action_coockie"
+                      android:orderInCategory="100"
+                      android:title="餅乾"
+                      android:icon ="@drawable/ic_coockie"
+                      app:showAsAction="never" />
+
+                  <item
+                      android:id="@+id/action_bread"
+                      android:orderInCategory="100"
+                      android:title="麵包"
+                      android:icon ="@drawable/ic_bread"
+                      app:showAsAction="never" />
+
+                  <item
+                      android:id="@+id/action_roll"
+                      android:orderInCategory="100"
+                      android:title="瑞士捲"
+                      android:icon ="@drawable/ic_roll"
+                      app:showAsAction="never" />
+                  
+                  <item
+                      android:id="@+id/action_other"
+                      android:orderInCategory="100"
+                      android:title="其他"
+                      android:icon ="@drawable/ic_other"
+                      app:showAsAction="never" />
+                  <item
+                      android:id="@+id/action_random"
+                      android:orderInCategory="100"
+                      android:title="每日推薦"
+                      android:icon ="@drawable/ic_random"
+                      app:showAsAction="never" />
+
+                  <item
+                      android:id="@+id/action_tool"
+                      android:orderInCategory="100"
+                      android:title="基本用具介紹"
+                      android:icon ="@drawable/ic_tool"
+                      app:showAsAction="never" />
+
+                  <item
+                      android:id="@+id/action_source"
+                      android:orderInCategory="100"
+                      android:title="食譜出處"
+                      android:icon ="@drawable/ic_link"
+                      app:showAsAction="never" />
+                  <item
+                      android:id="@+id/action_settings"
+                      android:orderInCategory="100"
+                      android:title="@string/action_settings" />
+
+                  ></menu>
+
+
+          </item>
+
+
+          ></menu>
+

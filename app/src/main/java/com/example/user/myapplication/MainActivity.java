@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-    private Intent intent = new Intent();
+
     private ImageButton bread1;   private ImageButton bread2;
     private ImageButton bread3;   private ImageButton bread4;
     private ImageButton bread5;   private ImageButton bread6;
@@ -60,11 +60,10 @@ public class MainActivity extends AppCompatActivity {
         roll3 = (ImageButton)findViewById(R.id.roll003);      roll4 = (ImageButton)findViewById(R.id.roll4);
         roll5 = (ImageButton)findViewById(R.id.roll5);        roll6 = (ImageButton)findViewById(R.id.roll6);
 
-
-
       bread1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread1.class);
                 startActivity(intent);
             }
@@ -73,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         bread2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread2.class);
                 startActivity(intent);
             }
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         bread3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread3.class);
                 startActivity(intent);
             }
@@ -89,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         bread4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread4.class);
                 startActivity(intent);
             }
@@ -97,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         bread5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread5.class);
                 startActivity(intent);
             }
@@ -105,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         bread6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Bread6.class);
                 startActivity(intent);
             }
@@ -113,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
         cake1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake1.class);
                 startActivity(intent);
             }
@@ -121,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
         cake2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake2.class);
                 startActivity(intent);
             }
@@ -129,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
         cake3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake3.class);
                 startActivity(intent);
             }
@@ -137,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
         cake4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake4.class);
                 startActivity(intent);
             }
@@ -145,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
         cake5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake5.class);
                 startActivity(intent);
             }
@@ -153,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
         cake6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cake6.class);
                 startActivity(intent);
             }
@@ -161,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
         coockie1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie1.class);
                 startActivity(intent);
             }
@@ -169,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
         coockie2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie2.class);
                 startActivity(intent);
             }
@@ -177,6 +189,7 @@ public class MainActivity extends AppCompatActivity {
         coockie3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie3.class);
                 startActivity(intent);
             }
@@ -185,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
         coockie4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie4.class);
                 startActivity(intent);
             }
@@ -193,6 +207,7 @@ public class MainActivity extends AppCompatActivity {
         coockie5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie5.class);
                 startActivity(intent);
             }
@@ -201,6 +216,7 @@ public class MainActivity extends AppCompatActivity {
         coockie6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Cookie6.class);
                 startActivity(intent);
             }
@@ -209,6 +225,7 @@ public class MainActivity extends AppCompatActivity {
         other1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other1.class);
                 startActivity(intent);
             }
@@ -217,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
         other2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other2.class);
                 startActivity(intent);
             }
@@ -225,6 +243,7 @@ public class MainActivity extends AppCompatActivity {
         other3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other3.class);
                 startActivity(intent);
             }
@@ -233,6 +252,7 @@ public class MainActivity extends AppCompatActivity {
         other4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other4.class);
                 startActivity(intent);
             }
@@ -241,6 +261,7 @@ public class MainActivity extends AppCompatActivity {
         other5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other5.class);
                 startActivity(intent);
             }
@@ -249,6 +270,7 @@ public class MainActivity extends AppCompatActivity {
         other6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Other6.class);
                 startActivity(intent);
             }
@@ -257,6 +279,7 @@ public class MainActivity extends AppCompatActivity {
         roll1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll1.class);
                 startActivity(intent);
             }
@@ -265,6 +288,7 @@ public class MainActivity extends AppCompatActivity {
         roll2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll2.class);
                 startActivity(intent);
             }
@@ -273,6 +297,7 @@ public class MainActivity extends AppCompatActivity {
         roll3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll3.class);
                 startActivity(intent);
             }
@@ -281,14 +306,17 @@ public class MainActivity extends AppCompatActivity {
         roll4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll4.class);
                 startActivity(intent);
+
             }
         });
 
         roll5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll5.class);
                 startActivity(intent);
             }
@@ -297,149 +325,22 @@ public class MainActivity extends AppCompatActivity {
         roll6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Roll6.class);
                 startActivity(intent);
             }
         });
 
-    }
-
-    public int random (){
-        int n ;
-        n = (int)(Math.random() * 30+1);
-        return n;
-    }
-
-    public void ToRecipe(int n){
-        switch (n){
-            case 1:
-                intent.setClass(MainActivity.this,Bread1.class);
-                startActivity(intent);
-                break;
-            case 2:
-                intent.setClass(MainActivity.this,Bread2.class);
-                startActivity(intent);
-                break;
-            case 3:
-                intent.setClass(MainActivity.this,Bread3.class);
-                startActivity(intent);
-                break;
-            case 4:
-                intent.setClass(MainActivity.this,Bread4.class);
-                startActivity(intent);
-                break;
-            case 5:
-                intent.setClass(MainActivity.this,Bread5.class);
-                startActivity(intent);
-                break;
-            case 6:
-                intent.setClass(MainActivity.this,Bread6.class);
-                startActivity(intent);
-                break;
-            case 7:
-                intent.setClass(MainActivity.this,Cake1.class);
-                startActivity(intent);
-                break;
-            case 8:
-                intent.setClass(MainActivity.this,Cake2.class);
-                startActivity(intent);
-                break;
-            case 9:
-                intent.setClass(MainActivity.this,Cake3.class);
-                startActivity(intent);
-                break;
-            case 10:
-                intent.setClass(MainActivity.this,Cake4.class);
-                startActivity(intent);
-                break;
-            case 11:
-                intent.setClass(MainActivity.this,Cake5.class);
-                startActivity(intent);
-                break;
-            case 12:
-                intent.setClass(MainActivity.this,Cake6.class);
-                startActivity(intent);
-                break;
-            case 13:
-                intent.setClass(MainActivity.this,Cookie1.class);
-                startActivity(intent);
-                break;
-            case 14:
-                intent.setClass(MainActivity.this,Cookie2.class);
-                startActivity(intent);
-                break;
-            case 15:
-                intent.setClass(MainActivity.this,Cookie3.class);
-                startActivity(intent);
-                break;
-            case 16:
-                intent.setClass(MainActivity.this,Cookie4.class);
-                startActivity(intent);
-                break;
-            case 17:
-                intent.setClass(MainActivity.this,Cookie5.class);
-                startActivity(intent);
-                break;
-            case 18:
-                intent.setClass(MainActivity.this,Cookie6.class);
-                startActivity(intent);
-                break;
-            case 19:
-                intent.setClass(MainActivity.this,Other1.class);
-                startActivity(intent);
-                break;
-            case 20:
-                intent.setClass(MainActivity.this,Other2.class);
-                startActivity(intent);
-                break;
-            case 21:
-                intent.setClass(MainActivity.this,Other3.class);
-                startActivity(intent);
-                break;
-            case 22:
-                intent.setClass(MainActivity.this,Other4.class);
-                startActivity(intent);
-                break;
-            case 23:
-                intent.setClass(MainActivity.this,Other5.class);
-                startActivity(intent);
-                break;
-            case 24:
-                intent.setClass(MainActivity.this,Other6.class);
-                startActivity(intent);
-                break;
-            case 25:
-                intent.setClass(MainActivity.this,Roll1.class);
-                startActivity(intent);
-                break;
-            case 26:
-                intent.setClass(MainActivity.this,Roll2.class);
-                startActivity(intent);
-                break;
-            case 27:
-                intent.setClass(MainActivity.this,Roll3.class);
-                startActivity(intent);
-                break;
-            case 28:
-                intent.setClass(MainActivity.this,Roll4.class);
-                startActivity(intent);
-                break;
-            case 29:
-                intent.setClass(MainActivity.this,Roll5.class);
-                startActivity(intent);
-                break;
-            case 30:
-                intent.setClass(MainActivity.this,Roll6.class);
-                startActivity(intent);
-                break;
 
 
-        }
+
+
+
+
+
 
 
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -456,24 +357,18 @@ public class MainActivity extends AppCompatActivity {
 
         switch(item.getItemId()){
             case R.id.action_tool:
-                intent.setClass(MainActivity.this,TOOL.class);
-                startActivity(intent);
+                Intent intent_tool = new Intent();
+                intent_tool.setClass(MainActivity.this,TOOL.class);
+                startActivity(intent_tool);
                 return true;
             case R.id.action_source:
-                intent.setClass(MainActivity.this,LinkActivity.class);
-                startActivity(intent);
+                Intent intent_source = new Intent();
+                intent_source.setClass(MainActivity.this,LinkActivity.class);
+                startActivity(intent_source);
                 return true;
-            case R.id.action_random:
-                int n = random();
-                ToRecipe(n);
-                return true;
-
-
-
-
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
+        }
 
 }

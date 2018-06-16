@@ -35,7 +35,7 @@
                       android:title="瑞士捲"
                       android:icon ="@drawable/ic_roll"
                       app:showAsAction="never" />
-                  
+
                   <item
                       android:id="@+id/action_other"
                       android:orderInCategory="100"

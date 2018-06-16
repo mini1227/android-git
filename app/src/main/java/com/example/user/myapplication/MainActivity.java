@@ -2,7 +2,9 @@ package com.example.user.myapplication;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.method.Touch;
@@ -15,6 +17,9 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity {
+
+
+
     private  ScrollView scrollView;
     private  LinearLayout BREAD;
     private  LinearLayout CAKE;
@@ -76,6 +81,14 @@ public class MainActivity extends AppCompatActivity {
         roll1 = (ImageButton)findViewById(R.id.roll001);      roll2 = (ImageButton)findViewById(R.id.roll002);
         roll3 = (ImageButton)findViewById(R.id.roll003);      roll4 = (ImageButton)findViewById(R.id.roll4);
         roll5 = (ImageButton)findViewById(R.id.roll5);        roll6 = (ImageButton)findViewById(R.id.roll6);
+
+      /*btn_main.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              startService(new Intent(MainActivity.this,FloatingWindow.class));
+
+          }
+      });*/
 
       bread1.setOnClickListener(new View.OnClickListener() {
             @Override

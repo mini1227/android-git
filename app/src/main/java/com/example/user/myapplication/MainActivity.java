@@ -5,13 +5,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.Touch;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity {
+    private  ScrollView scrollView;
+    private  LinearLayout BREAD;
+    private  LinearLayout CAKE;
+    private  LinearLayout COOCKIE;
+    private  LinearLayout OTHER;
+    private  LinearLayout ROLL;
+
     private  Intent intent = new Intent();
     private ImageButton bread1;   private ImageButton bread2;
     private ImageButton bread3;   private ImageButton bread4;
@@ -39,6 +49,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        scrollView = (ScrollView)findViewById(R.id.scroll_main);
+        BREAD = (LinearLayout)findViewById(R.id.BREAD1);
+        CAKE = (LinearLayout)findViewById(R.id.CAKE1);
+        COOCKIE = (LinearLayout)findViewById(R.id.KIE1);
+        OTHER = (LinearLayout)findViewById(R.id.OTEHER1);
+        ROLL = (LinearLayout)findViewById(R.id.ROLL1);
 
         bread1 = (ImageButton)findViewById(R.id.bread01);   bread2 = (ImageButton)findViewById(R.id.bread02);
         bread3 = (ImageButton)findViewById(R.id.bread03);   bread4 = (ImageButton)findViewById(R.id.bread04);
@@ -464,6 +481,69 @@ public class MainActivity extends AppCompatActivity {
                 int n = random();
                 ToRecipe(n);
                 return true;
+            case R.id.action_cake:
+                scrollView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int []location = new int[2];
+                        CAKE.getLocationOnScreen(location);
+                        scrollView.smoothScrollTo(0,location[1]);
+
+                    }
+                });
+
+                return true;
+            case R.id.action_bread:
+                scrollView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int []location = new int[2];
+                        BREAD.getLocationOnScreen(location);
+                        scrollView.smoothScrollTo(0,location[1]);
+
+                    }
+                });
+
+                return true;
+            case R.id.action_coockie:
+                scrollView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int []location = new int[2];
+                        COOCKIE.getLocationOnScreen(location);
+                        scrollView.smoothScrollTo(0,location[1]);
+
+                    }
+                });
+
+                return true;
+            case R.id.action_roll:
+                scrollView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int []location = new int[2];
+                        ROLL.getLocationOnScreen(location);
+                        scrollView.smoothScrollTo(0,location[1]);
+
+                    }
+                });
+
+
+                return true;
+            case R.id.action_other:
+                scrollView.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int []location = new int[2];
+                        OTHER.getLocationOnScreen(location);
+                        scrollView.smoothScrollTo(0,location[1]);
+
+                    }
+                });
+
+
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

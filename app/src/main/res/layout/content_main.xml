@@ -27,15 +27,15 @@
 
                 <ImageView
                     android:id="@+id/imageView228"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    app:srcCompat="@drawable/logo" />
+                    android:layout_width="399dp"
+                    android:layout_height="98dp"
+                    app:srcCompat="@drawable/logo3" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="66dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:text="兔子堂" />
+                    android:text="  兔 子 堂" />
 
                 <ImageView
                     android:id="@+id/imageView26"

@@ -729,13 +729,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical"></LinearLayout>
+
                 <Button
                     android:id="@+id/btn_link14"
                     android:layout_width="170dp"
                     android:layout_height="69dp"
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/background_light"
-                    android:text=""
+                    android:text="https://icook.tw/recipes/234078"
                     android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
@@ -775,15 +776,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView387"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link15"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/242231"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -821,15 +825,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView388"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link16"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/216778"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -867,15 +874,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView389"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link17"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/77530"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -913,15 +923,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView390"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link18"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/244161"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -959,15 +972,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView391"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link19"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/107943"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1005,15 +1021,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView392"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link20"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/142103"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1051,15 +1070,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView393"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link21"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/194968"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1097,15 +1119,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView394"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link22"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/69203"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1143,15 +1168,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView395"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link23"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="http://kuanming-style.blogspot.tw/2014/12/lemon-biscuits.html?m=1"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1190,15 +1218,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView396"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link24"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/82446"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1236,15 +1267,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView397"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link25"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="http://yummymum.tw/2017-04-28-1110/"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1283,15 +1317,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView398"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link26"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/249758"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1329,15 +1366,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView399"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link27"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="http://yfwu0420.pixnet.net/blog/post/382636817-%2A%5B%E8%A6%AA%E5%AD%90%E7%94%9C%E9%BB%9E%5D-%E8%B6%85%E5%A5%BD%E5%90%83%E7%9A%84%E6%B3%95%E5%BC%8F%E5%8D%83%E5%B1%A4%E8%9B%8B%E7%B3%95%E4%B8%8D%E6%B1%82%E4%BA%BA%E8%87%AA"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1375,15 +1415,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView400"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link28"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/2087945-%E6%8A%B9%E8%8C%B6%E5%A5%B6%E6%B2%B9%E6%B3%A1%E8%8A%99"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1421,15 +1464,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView401"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link29"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/35970"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout
@@ -1467,15 +1513,18 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView402"
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_link30"
                     android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="69dp"
                     android:layout_weight="1"
-                    android:text=""
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="https://icook.tw/recipes/246577"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="10sp" />
 
                 <LinearLayout

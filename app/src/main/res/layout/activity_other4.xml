@@ -24,14 +24,8 @@
                 <ImageView
                     android:id="@+id/imageView37"
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/logo" />
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/bar" />
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/otherlogo" />
 
             </LinearLayout>
 
@@ -41,6 +35,12 @@
                 android:layout_height="10dp"
                 android:orientation="horizontal">
 
+                <ImageView
+                    android:id="@+id/imageView330"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bar" />
             </LinearLayout>
 
             <TextView
@@ -94,7 +94,15 @@
                 android:id="@+id/a2"
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView331"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bar" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/recipe"
@@ -208,7 +216,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView332"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bar" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/a3"
@@ -819,7 +835,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView333"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/back2" />
+            </LinearLayout>
 
         </LinearLayout>
 

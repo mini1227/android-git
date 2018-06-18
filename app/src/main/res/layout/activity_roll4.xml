@@ -23,8 +23,8 @@
                 <ImageView
                     android:id="@+id/imageView106"
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    app:srcCompat="@drawable/logo" />
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/rolllogo" />
 
                 <ImageView
                     android:id="@+id/imageView107"
@@ -83,7 +83,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView351"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bar" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -176,6 +183,11 @@
                 android:layout_height="10dp"
                 android:orientation="vertical">
 
+                <ImageView
+                    android:id="@+id/imageView352"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bar" />
             </LinearLayout>
 
             <LinearLayout
@@ -958,7 +970,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView353"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/back2" />
+            </LinearLayout>
 
         </LinearLayout>
 

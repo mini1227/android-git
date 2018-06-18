@@ -61,13 +61,10 @@
                       android:orderInCategory="100"
                       android:title="食譜出處"
                       android:icon ="@drawable/ic_link"
-                      app:showAsAction="never" />
-                  <item
-                      android:id="@+id/action_settings"
-                      android:orderInCategory="100"
-                      android:title="@string/action_settings" />
+                      app:showAsAction="never" /><![CDATA[
 
-                  ></menu>
+                  >]]>
+              </menu>
 
 
           </item>
